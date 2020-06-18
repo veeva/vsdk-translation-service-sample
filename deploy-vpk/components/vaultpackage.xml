@@ -1,0 +1,11 @@
+<vaultpackage xmlns="https://veevavault.com/">
+    <name>PKG-vsdk-translation-service-sample-components</name>
+    <source>
+        <author>Vault Developer Support</author>
+    </source>
+    <summary>The vsdk-translation-service-sample project components.</summary>
+    <description>This VPK contains the components for the vsdk-translation-service-sample project.</description>
+    <javasdk>
+        <deployment_option>incremental</deployment_option>
+    </javasdk>
+</vaultpackage>

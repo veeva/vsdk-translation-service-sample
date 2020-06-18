@@ -1,0 +1,9 @@
+
+deploy-vpk/.DS_Store
+.DS_Store
+.settings/
+.classpath
+.gitattributes
+.project
+.idea
+/target/

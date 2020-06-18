@@ -1,0 +1,1 @@
+<stepheader><label>DSET-00009-Bicycle Model</label><steprequired>False</steprequired><checksum>e9995ce3c3f33493484b9572eb0534eb</checksum><datastepheader><object>bicycle_model__c</object><idparam>name__v</idparam><datatype>Object</datatype><action>Upsert</action><recordmigrationmode>False</recordmigrationmode><recordcount>15</recordcount></datastepheader></stepheader>
