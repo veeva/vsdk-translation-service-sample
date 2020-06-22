@@ -22,7 +22,7 @@ For Eclipse this is done by:
 
 For this project, the custom trigger and necessary vault components are contained in the two separate vault packages (VPK). The VPKs are located in the project's **deploy-vpk** directory  and **need to be deployed to your vault** prior to debugging these use cases:
 
-1.  Clone or download the sample Maven project [vSDK Translation Service Sample project](https://github.veevadev.com/veevavaultdevsupport/vsdk-translation-service-sample) from Github.
+1.  Clone or download the sample Maven project [vSDK Translation Service Sample project](https://github.com/veeva/vsdk-translation-service-sample) from Github.
 2.  Run through the [Getting Started](https://developer.veevavault.com/sdk/#getting-started) guide to set up your development environment.
 3.  Log in to your vault and navigate to **Admin > Deployment > Inbound Packages** and click **Import**:
 4.  Locate and select the following file in your downloaded project file:
@@ -34,15 +34,6 @@ For this project, the custom trigger and necessary vault components are containe
 7.  Repeat steps 3-6 for the vault components, select the package that matches your vault type:
 
     >Deploy vault components: Select the \deploy-vpk\components\vsdk-translation-service-sample-components.vpk file.
-8. Import the French Labels CSV from `\deploy-vpk\components\FrenchLabels.csv` using the Bulk Translation Import tool. This tool can be found in the Vault UI Admin Screen at Admin > Settings > Language & Region Settings > Bulk Translation. 
-   
-    More documentation regarding translation messages can be found here:
-    
-        https://vaulthelp2.vod309.com/wordpress/admin-user-help/system-settings/about-language-and-region-settings/
-        http://vaulthelp2.vod309.com/wordpress/admin-user-help/viewing-vault-java-sdk-solutions/#message_catalog
-        http://vaulthelp2.vod309.com/wordpress/admin-user-help/using-the-message-catalog/
-  
-  
  
 ## License
 
