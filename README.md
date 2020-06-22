@@ -27,13 +27,13 @@ For this project, the custom trigger and necessary vault components are containe
 3.  Log in to your vault and navigate to **Admin > Deployment > Inbound Packages** and click **Import**:
 4.  Locate and select the following file in your downloaded project file:
 
-    > **Custom Trigger** code: **\deploy-vpk\code\vsdk-translation-service-sample-code.vpk** file.
+    > Deploy Vault components: Select the deploy-vpk\components\vsdk-translation-service-sample-components.vpk file.
  
 5.  From the **Actions** menu (gear icon), select **Review & Deploy**. Vault displays a list of all components in the package.   
 6.  Review the prompts to deploy the package. You will receive an email when vault completes the deployment.
-7.  Repeat steps 3-6 for the vault components, select the package that matches your vault type:
+7.  Repeat steps 3-6 for the vault code, select the package that matches your vault type:
 
-    >Deploy vault components: Select the \deploy-vpk\components\vsdk-translation-service-sample-components.vpk file.
+    >Deploy Vault code: Select the \deploy-vpk\code\vsdk-translation-service-sample-code.vpk file.
  
 ## License
 
